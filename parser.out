@@ -1,0 +1,131 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> program
+Rule 1     program -> PROGRAM OBRACKET statement_list CBRACKET
+Rule 2     program -> PROGRAM OBRACKET CBRACKET
+Rule 3     statement_list -> statement
+Rule 4     statement_list -> statement_list statement
+Rule 5     statement -> sent_assign
+Rule 6     statement -> write_statement
+Rule 7     statement -> var_declaration_statement
+Rule 8     statement -> if_statement
+Rule 9     statement -> iteration_statement
+Rule 10    do_while_statement -> DO OBRACKET statement_list CBRACKET UNTIL LPAREN sent_assign RPAREN
+Rule 11    for_statement -> FOR LPAREN sent_assign sent_assign RPAREN OBRACKET statement_list CBRACKET
+Rule 12    while_statement -> WHILE LPAREN sent_assign RPAREN OBRACKET statement_list CBRACKET
+Rule 13    iteration_statement -> for_statement
+Rule 14    iteration_statement -> while_statement
+Rule 15    iteration_statement -> do_while_statement
+Rule 16    if_statement -> IF LPAREN sent_assign RPAREN THEN OBRACKET statement_list CBRACKET FI
+Rule 17    if_statement -> IF LPAREN sent_assign RPAREN THEN OBRACKET statement_list CBRACKET ELSE OBRACKET statement_list CBRACKET FI
+Rule 18    var_declaration_statement -> type_declaration var_list SEMICOLON
+Rule 19    var_declaration_statement -> ID var_list SEMICOLON
+Rule 20    var_list -> ID
+Rule 21    var_list -> ID COMA var_list
+Rule 22    type_declaration -> INT
+Rule 23    type_declaration -> CHAR
+Rule 24    type_declaration -> FLOAT
+Rule 25    type_declaration -> BOOL
+Rule 26    write_statement -> WRITE expr SEMICOLON
+Rule 27    sent_assign -> ID EQUAL exp_bool SEMICOLON
+Rule 28    sent_assign -> exp_bool SEMICOLON
+Rule 29    sent_assign -> exp_bool
+Rule 30    exp_bool -> exp_bool OR comb
+Rule 31    exp_bool -> comb
+Rule 32    comb -> comb AND igualdad
+Rule 33    comb -> igualdad
+Rule 34    igualdad -> igualdad EQUALEQUAL rel
+Rule 35    igualdad -> igualdad DIFFEQUAL rel
+Rule 36    igualdad -> rel
+Rule 37    rel -> expr op_rel expr
+Rule 38    rel -> expr
+Rule 39    op_rel -> LEESTHAN
+Rule 40    op_rel -> MORETHAN
+Rule 41    op_rel -> LEESETHAN
+Rule 42    op_rel -> MOREETHAN
+Rule 43    expr -> expr MINUS term
+Rule 44    expr -> expr PLUS term
+Rule 45    expr -> term
+Rule 46    term -> term TIMES unario
+Rule 47    term -> term DIVIDE unario
+Rule 48    term -> unario
+Rule 49    unario -> NOT unario
+Rule 50    unario -> MINUS unario
+Rule 51    unario -> factor
+Rule 52    factor -> LPAREN RPAREN
+Rule 53    factor -> ID
+Rule 54    factor -> NUMBER
+Rule 55    factor -> DOUBLE
+Rule 56    factor -> TRUE
+Rule 57    factor -> FALSE
+
+Terminals, with rules where they appear
+
+AND                  : 32
+BOOL                 : 25
+CBRACKET             : 1 2 10 11 12 16 17 17
+CHAR                 : 23
+COMA                 : 21
+DIFFEQUAL            : 35
+DIVIDE               : 47
+DO                   : 10
+ELSE                 : 17
+EQUAL                : 27
+EQUALEQUAL           : 34
+FALSE                : 57
+FI                   : 16 17
+FLOAT                : 24
+FOR                  : 11
+ID                   : 19 20 21 27 53
+IF                   : 16 17
+INT                  : 22
+LEESETHAN            : 41
+LEESTHAN             : 39
+LPAREN               : 10 11 12 16 17 52
+MINUS                : 43 50
+MOREETHAN            : 42
+MORETHAN             : 40
+NOT                  : 49
+NUMBER               : 54
+OBRACKET             : 1 2 10 11 12 16 17 17
+OR                   : 30
+PLUS                 : 44
+PROGRAM              : 1 2
+RPAREN               : 10 11 12 16 17 52
+SEMICOLON            : 18 19 26 27 28
+THEN                 : 16 17
+TIMES                : 46
+TRUE                 : 56
+UNTIL                : 10
+WHILE                : 12
+WRITE                : 26
+error                : 
+
+Nonterminals, with rules where they appear
+
+DOUBLE               : 55
+comb                 : 30 31 32
+do_while_statement   : 15
+exp_bool             : 27 28 29 30
+expr                 : 26 37 37 38 43 44
+factor               : 51
+for_statement        : 13
+if_statement         : 8
+igualdad             : 32 33 34 35
+iteration_statement  : 9
+op_rel               : 37
+program              : 0
+rel                  : 34 35 36
+sent_assign          : 5 10 11 11 12 16 17
+statement            : 3 4
+statement_list       : 1 4 10 11 12 16 17 17
+term                 : 43 44 45 46 47
+type_declaration     : 18
+unario               : 46 47 48 49 50
+var_declaration_statement : 7
+var_list             : 18 19 21
+while_statement      : 14
+write_statement      : 6
+

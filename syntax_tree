@@ -1,0 +1,152 @@
+digraph {
+	"('program', 'program', ('statement_list', ('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))))), ('statement', ('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))))))))" [label=program]
+	program [label=program]
+	"('program', 'program', ('statement_list', ('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))))), ('statement', ('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))))))))" -> program
+	"('statement_list', ('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))))), ('statement', ('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))))))" [label=statement_list]
+	"('program', 'program', ('statement_list', ('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))))), ('statement', ('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))))))))" -> "('statement_list', ('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))))), ('statement', ('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))))))"
+	"('statement_list', ('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))))), ('statement', ('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))))))" [label=statement_list]
+	"('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))))))" [label=statement_list]
+	"('statement_list', ('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))))), ('statement', ('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))))))" -> "('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))))))"
+	"('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))))))" [label=statement_list]
+	"('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))))))" [label=statement_list]
+	"('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))))))" -> "('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))))))"
+	"('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))))))" [label=statement_list]
+	"('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y'])))" [label=statement_list]
+	"('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))))))" -> "('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y'])))"
+	"('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y'])))" [label=statement_list]
+	"('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))" [label=statement]
+	"('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y'])))" -> "('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))"
+	"('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))" [label=statement]
+	"('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y'])" [label=VAR_DECLARATION]
+	"('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))" -> "('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y'])"
+	"('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y'])" [label=VAR_DECLARATION]
+	"('type_declaration', 'int')" [label=type_declaration]
+	"('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y'])" -> "('type_declaration', 'int')"
+	"('type_declaration', 'int')" [label=type_declaration]
+	int [label=int]
+	"('type_declaration', 'int')" -> int
+	"['x', 'y']" [label="['x', 'y']"]
+	"('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y'])" -> "['x', 'y']"
+	"('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))" [label=statement]
+	"('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))))))" -> "('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))"
+	"('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))" [label=statement]
+	"('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))))" [label=sent_assign]
+	"('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))" -> "('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))))"
+	"('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))))" [label=sent_assign]
+	x [label=x]
+	"('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))))" -> x
+	"('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))" [label=exp_bool]
+	"('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))))" -> "('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))"
+	"('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))" [label=exp_bool]
+	"('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))" [label=comb]
+	"('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))" -> "('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))"
+	"('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))" [label=comb]
+	"('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))" [label=igualdad]
+	"('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0)))))))" -> "('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))"
+	"('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))" [label=igualdad]
+	"('rel', ('expr', ('term', ('unario', ('factor', 0)))))" [label=rel]
+	"('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))" -> "('rel', ('expr', ('term', ('unario', ('factor', 0)))))"
+	"('rel', ('expr', ('term', ('unario', ('factor', 0)))))" [label=rel]
+	"('expr', ('term', ('unario', ('factor', 0))))" [label=expr]
+	"('rel', ('expr', ('term', ('unario', ('factor', 0)))))" -> "('expr', ('term', ('unario', ('factor', 0))))"
+	"('expr', ('term', ('unario', ('factor', 0))))" [label=expr]
+	"('term', ('unario', ('factor', 0)))" [label=term]
+	"('expr', ('term', ('unario', ('factor', 0))))" -> "('term', ('unario', ('factor', 0)))"
+	"('term', ('unario', ('factor', 0)))" [label=term]
+	"('unario', ('factor', 0))" [label=unario]
+	"('term', ('unario', ('factor', 0)))" -> "('unario', ('factor', 0))"
+	"('unario', ('factor', 0))" [label=unario]
+	"('factor', 0)" [label=factor]
+	"('unario', ('factor', 0))" -> "('factor', 0)"
+	"('factor', 0)" [label=factor]
+	0 [label=0]
+	"('factor', 0)" -> 0
+	"('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))))" [label=statement]
+	"('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))))))" -> "('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))))"
+	"('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))))" [label=statement]
+	"('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))))" [label=sent_assign]
+	"('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))))" -> "('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))))"
+	"('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))))" [label=sent_assign]
+	y [label=y]
+	"('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))))" -> y
+	"('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))" [label=exp_bool]
+	"('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))))" -> "('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))"
+	"('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))" [label=exp_bool]
+	"('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))" [label=comb]
+	"('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))" -> "('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))"
+	"('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))" [label=comb]
+	"('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))" [label=igualdad]
+	"('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4)))))))" -> "('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))"
+	"('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))" [label=igualdad]
+	"('rel', ('expr', ('term', ('unario', ('factor', 4)))))" [label=rel]
+	"('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))" -> "('rel', ('expr', ('term', ('unario', ('factor', 4)))))"
+	"('rel', ('expr', ('term', ('unario', ('factor', 4)))))" [label=rel]
+	"('expr', ('term', ('unario', ('factor', 4))))" [label=expr]
+	"('rel', ('expr', ('term', ('unario', ('factor', 4)))))" -> "('expr', ('term', ('unario', ('factor', 4))))"
+	"('expr', ('term', ('unario', ('factor', 4))))" [label=expr]
+	"('term', ('unario', ('factor', 4)))" [label=term]
+	"('expr', ('term', ('unario', ('factor', 4))))" -> "('term', ('unario', ('factor', 4)))"
+	"('term', ('unario', ('factor', 4)))" [label=term]
+	"('unario', ('factor', 4))" [label=unario]
+	"('term', ('unario', ('factor', 4)))" -> "('unario', ('factor', 4))"
+	"('unario', ('factor', 4))" [label=unario]
+	"('factor', 4)" [label=factor]
+	"('unario', ('factor', 4))" -> "('factor', 4)"
+	"('factor', 4)" [label=factor]
+	4 [label=4]
+	"('factor', 4)" -> 4
+	"('statement', ('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))))))" [label=statement]
+	"('statement_list', ('statement_list', ('statement_list', ('statement_list', ('statement', ('VAR_DECLARATION', ('type_declaration', 'int'), ['x', 'y']))), ('statement', ('sent_assign', 'x', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 0))))))))))), ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', ('term', ('unario', ('factor', 4))))))))))), ('statement', ('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))))))" -> "('statement', ('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))))))"
+	"('statement', ('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))))))" [label=statement]
+	"('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))))" [label=iteration_statement]
+	"('statement', ('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))))))" -> "('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))))"
+	"('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))))" [label=iteration_statement]
+	"('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))))" [label=while_statement]
+	"('iteration_statement', ('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))))" -> "('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))))"
+	"('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))))" [label=while_statement]
+	"('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true')))))" [label=sent_assign]
+	"('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))))" -> "('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true')))))"
+	"('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true')))))" [label=sent_assign]
+	"('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))" [label=exp_bool]
+	"('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true')))))" -> "('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))"
+	"('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))" [label=exp_bool]
+	"('comb', ('igualdad', ('rel', 'true')))" [label=comb]
+	"('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))" -> "('comb', ('igualdad', ('rel', 'true')))"
+	"('comb', ('igualdad', ('rel', 'true')))" [label=comb]
+	"('igualdad', ('rel', 'true'))" [label=igualdad]
+	"('comb', ('igualdad', ('rel', 'true')))" -> "('igualdad', ('rel', 'true'))"
+	"('igualdad', ('rel', 'true'))" [label=igualdad]
+	"('rel', 'true')" [label=rel]
+	"('igualdad', ('rel', 'true'))" -> "('rel', 'true')"
+	"('rel', 'true')" [label=rel]
+	true [label=true]
+	"('rel', 'true')" -> true
+	"('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))" [label=statement_list]
+	"('while_statement', ('sent_assign', ('exp_bool', ('comb', ('igualdad', ('rel', 'true'))))), ('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))))" -> "('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))"
+	"('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))" [label=statement_list]
+	"('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))" [label=statement]
+	"('statement_list', ('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))))" -> "('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))"
+	"('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))" [label=statement]
+	"('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))" [label=sent_assign]
+	"('statement', ('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))))" -> "('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))"
+	"('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))" [label=sent_assign]
+	y [label=y]
+	"('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))" -> y
+	"('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))" [label=exp_bool]
+	"('sent_assign', 'y', ('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1))))))" -> "('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))"
+	"('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))" [label=exp_bool]
+	"('comb', ('igualdad', ('rel', ('expr', -1))))" [label=comb]
+	"('exp_bool', ('comb', ('igualdad', ('rel', ('expr', -1)))))" -> "('comb', ('igualdad', ('rel', ('expr', -1))))"
+	"('comb', ('igualdad', ('rel', ('expr', -1))))" [label=comb]
+	"('igualdad', ('rel', ('expr', -1)))" [label=igualdad]
+	"('comb', ('igualdad', ('rel', ('expr', -1))))" -> "('igualdad', ('rel', ('expr', -1)))"
+	"('igualdad', ('rel', ('expr', -1)))" [label=igualdad]
+	"('rel', ('expr', -1))" [label=rel]
+	"('igualdad', ('rel', ('expr', -1)))" -> "('rel', ('expr', -1))"
+	"('rel', ('expr', -1))" [label=rel]
+	"('expr', -1)" [label=expr]
+	"('rel', ('expr', -1))" -> "('expr', -1)"
+	"('expr', -1)" [label=expr]
+	-1 [label=-1]
+	"('expr', -1)" -> -1
+}
